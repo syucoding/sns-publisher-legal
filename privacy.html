@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SNS Content Publisher — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem;
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1a1a1d; background: #fff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #e8e8ea; background: #1a1a1d; } a { color: #2dd4bf; } }
+  h1 { font-size: 1.75rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  .meta { color: #6b6b73; font-size: .9rem; margin-bottom: 2rem; }
+  nav { margin-bottom: 2rem; font-size: .95rem; }
+  ul { padding-left: 1.25rem; }
+  table { border-collapse: collapse; width: 100%; margin-top: .75rem; font-size: .95rem; }
+  th, td { text-align: left; padding: .5rem .6rem; border-bottom: 1px solid #d8d8de; vertical-align: top; }
+  @media (prefers-color-scheme: dark) { th, td { border-bottom-color: #48484e; } }
+</style>
+</head>
+<body>
+
+<nav><a href="./index.html">Terms of Service</a></nav>
+
+<h1>Privacy Policy</h1>
+<p class="meta">SNS Content Publisher · Last updated: 19 August 2026</p>
+
+<h2>1. Summary</h2>
+<p>SNS Content Publisher ("the App") is a desktop application that runs entirely on the user's own computer. <strong>There is no server operated by the App and no data is sent to the developer.</strong> Everything the App stores stays on the user's machine.</p>
+
+<h2>2. What the App stores, and where</h2>
+<table>
+  <tr><th>Data</th><th>Why</th><th>Where it is kept</th></tr>
+  <tr>
+    <td>Access token and refresh token for each connected account</td>
+    <td>To publish on your behalf to accounts you connected</td>
+    <td>Locally, encrypted with the operating system's secure storage (macOS Keychain)</td>
+  </tr>
+  <tr>
+    <td>Connected account's display name, username, and avatar</td>
+    <td>Shown in the settings screen so you can confirm which account is connected</td>
+    <td>Locally, in the App's database file</td>
+  </tr>
+  <tr>
+    <td>Your drafts, captions, images, and videos</td>
+    <td>The content you are preparing to publish</td>
+    <td>Locally, in the App's data folder</td>
+  </tr>
+  <tr>
+    <td>Publishing history (what was posted, when, success or failure)</td>
+    <td>So you can see results and retry failures</td>
+    <td>Locally, in the App's database file</td>
+  </tr>
+</table>
+
+<h2>3. What the App does NOT do</h2>
+<ul>
+  <li>It does not send your data to the developer or to any analytics service.</li>
+  <li>It does not read, collect, or store other TikTok users' content, comments, or profiles.</li>
+  <li>It does not sell, rent, or share any data with third parties.</li>
+  <li>It does not track your usage or behaviour.</li>
+</ul>
+
+<h2>4. Third parties the App communicates with</h2>
+<p>The App talks directly to the official APIs of the platforms you connect, using your own credentials:</p>
+<ul>
+  <li><strong>TikTok</strong> — to publish videos to your own account and to display your account name.</li>
+  <li><strong>YouTube (Google)</strong>, <strong>Instagram</strong>, <strong>Threads</strong> — same purpose, for the accounts you choose to connect.</li>
+</ul>
+<p>When publishing to platforms that require a publicly reachable file URL, the App uploads the media to a temporary file host so the platform can fetch it. Those files expire automatically. No account information is sent to that host.</p>
+<p>Data handled by those platforms is governed by their own privacy policies.</p>
+
+<h2>5. TikTok data specifically</h2>
+<p>Through TikTok's Login Kit and Content Posting API, the App receives and uses only:</p>
+<ul>
+  <li><code>user.info.basic</code> / <code>user.info.profile</code> — your display name, username, and avatar, used only to show which account is connected inside the App.</li>
+  <li><code>video.publish</code> — permission to upload a video you selected to your own TikTok account, with the caption and settings you entered.</li>
+</ul>
+<p>This information is never transmitted anywhere other than between your computer and TikTok.</p>
+
+<h2>6. Retention and deletion</h2>
+<p>Data stays on your computer until you delete it. Disconnecting an account in the App's settings removes its stored tokens. Deleting the App's data folder removes everything. You can also revoke the App's access at any time from the platform's own settings page.</p>
+
+<h2>7. Children</h2>
+<p>The App is not directed at children and is intended for use by the account owner operating their own social media presence.</p>
+
+<h2>8. Changes to this policy</h2>
+<p>This policy may be updated. The date at the top of this page shows when it last changed.</p>
+
+<h2>9. Contact</h2>
+<p>Questions about this policy: <strong>[여기에 연락받을 이메일 주소를 넣으세요]</strong></p>
+
+</body>
+</html>
